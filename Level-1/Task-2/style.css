@@ -10,8 +10,8 @@ body {
 }
 
 /* smooth scroll */
-html { 
-  scroll-behavior: smooth; 
+html {
+  scroll-behavior: smooth;
 }
 :root {
   --nav-height: 65px;
@@ -112,30 +112,30 @@ section {
 }
 
 .hero-content p {
-    color: white;
-    /* font-size: 1.2rem; */
-    text-align: center;
-    /* max-width: 600px; */
-    margin-bottom: 2.5rem;
+  color: white;
+  /* font-size: 1.2rem; */
+  text-align: center;
+  /* max-width: 600px; */
+  margin-bottom: 2.5rem;
 }
 .hero-btn {
-    display: flex;
-    gap: 4rem;
+  display: flex;
+  gap: 4rem;
 }
 .hero-btn a {
-    text-decoration: none;
-    color: black;
-    background: rgb(45, 166, 178);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: 0.3s ease;
+  text-decoration: none;
+  color: black;
+  background: rgb(45, 166, 178);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
 /* about section */
 
 .about {
-  background-color: #2D3748;
+  background-color: #2d3748;
   min-height: 100vh;
   overflow-x: hidden;
   display: flex;
@@ -143,7 +143,6 @@ section {
   align-items: center;
   justify-content: center;
   padding-top: var(--anchor-offset);
-
 }
 
 .container h2 {
@@ -166,7 +165,7 @@ section {
   padding: 2rem 10rem;
 }
 
-.about-para  {
+.about-para {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,7 +223,7 @@ section {
 .about-achievement h1 {
   font-size: 40px;
   font-weight: 700;
-  background: linear-gradient(135deg, #668cac, rgb(45, 166, 178));;
+  background: linear-gradient(135deg, #668cac, rgb(45, 166, 178));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -252,7 +251,6 @@ section {
   transition: 0.5s;
 }
 
-
 /* Skills Section */
 
 .skills {
@@ -275,7 +273,7 @@ section {
   padding: 2rem;
 }
 .skill-card {
-  background: #2D3748;
+  background: #2d3748;
   border-radius: 10px;
   padding: 24px;
   text-align: center;
@@ -295,7 +293,108 @@ section {
   font-size: 0.9rem;
 }
 
+/* project section */
 
-
-
-
+.projects {
+  background-color: #2d3748;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: var(--anchor-offset);
+}
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 1rem;
+}
+.project-card {
+  background: #1a202c;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 0 0;
+}
+.project-img {
+  height: 240px;
+}
+.project-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  /* object-fit: cover; */
+  /* margin-bottom: 1rem; */
+}
+.project-content h3 {
+  color: white;
+  margin: 1rem 0 0.5rem 0;
+  padding: 0 1rem;
+}
+.project-content p {
+  color: #a0aec0;
+  margin: 1rem 0 0.5rem 0;
+  padding: 0 1rem;
+  text-align: justify;
+}
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+}
+.tech-tag {
+  background: rgba(45, 166, 178, 1);
+  color: black;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.project-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}
+.project-features li {
+  color: #a0aec0;
+  list-style: none;
+  font-size: 1rem;
+}
+.project-features li::before {
+  content: "✓";
+  /* position: absolute; */
+  /* left: 0; */
+  color: rgba(45, 166, 178, 1);
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.project-links {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  justify-content: space-evenly;
+}
+.project-links a {
+  text-decoration: none;
+  color: rgb(45, 166, 178);;
+  /* background: rgb(45, 166, 178); */
+  border: 1px solid rgb(45, 166, 178);
+  padding: 0.5rem 2.5rem;
+  border-radius: 5px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+}
+.project-links a:hover {
+  color: #2d3748;
+  background: rgb(45, 166, 178);
+}
