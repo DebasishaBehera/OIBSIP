@@ -285,8 +285,10 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-.skill-icon {
-  font-size: 3rem;
+.skill-icon img {
+  width: 4rem;
+  height: 4rem;
+  /* font-size: 3rem; */
   margin-bottom: 1rem;
 }
 .skill-card h3 {
