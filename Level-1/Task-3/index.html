@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <div class="converter">
+            <div class="from-section">
+                <div class="section-title">From</div>
+                <div class="temperature-display" id="from-display">72</div>
+                <div class="unit-selector">
+                    <div class="unit-option" id="from-celsius">
+                        <input type="radio" id="from-c" name="from-unit" value="celsius" checked>
+                        <label for="from-c">°C</label>
+                    </div>
+                    <div class="unit-option" id="from-fahrenheit">
+                        <input type="radio" id="from-f" name="from-unit" value="fahrenheit">
+                        <label for="from-f">°F</label>
+                    </div>
+                    <div class="unit-option" id="from-kelvin">
+                        <input type="radio" id="from-k" name="from-unit" value="kelvin">
+                        <label for="from-k">K</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="to-section">
+                <div class="section-title">To</div>
+                <div class="temperature-display" id="to-display">72.00</div>
+                <div class="unit-selector">
+                    <div class="unit-option" id="to-celsius">
+                        <input type="radio" id="to-c" name="to-unit" value="celsius">
+                        <label for="to-c">°C</label>
+                    </div>
+                    <div class="unit-option" id="to-fahrenheit">
+                        <input type="radio" id="to-f" name="to-unit" value="fahrenheit" checked>
+                        <label for="to-f">°F</label>
+                    </div>
+                    <div class="unit-option" id="to-kelvin">
+                        <input type="radio" id="to-k" name="to-unit" value="kelvin">
+                        <label for="to-k">K</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label for="temperature">Enter Temperature:</label>
+                <input type="number" id="temperature" placeholder="e.g., 72" step="any" value="72">
+                <div class="error" id="temperature-error">Please enter a valid number</div>
+            </div>
+
+            <button id="convert-btn">Convert</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
