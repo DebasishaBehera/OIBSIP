@@ -5,11 +5,10 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  /* background-color: #1f2029;
-  color: white; */
 }
 
 /* smooth scroll */
+
 html {
   scroll-behavior: smooth;
 }
@@ -110,17 +109,12 @@ section {
 
 .hero-content h2 {
   color: rgb(45, 166, 178);
-  /* font-size: 1.2rem; */
-  /* text-align: center;
-  max-width: 600px; */
   margin-bottom: 2rem;
 }
 
 .hero-content p {
   color: white;
-  /* font-size: 1.2rem; */
   text-align: center;
-  /* max-width: 600px; */
   margin-bottom: 2.5rem;
 }
 .hero-btn {
@@ -265,7 +259,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   padding-top: var(--anchor-offset);
 }
 .skill-cards {
@@ -288,7 +281,6 @@ section {
 .skill-icon img {
   width: 4rem;
   height: 4rem;
-  /* font-size: 3rem; */
   margin-bottom: 1rem;
 }
 .skill-card h3 {
@@ -309,7 +301,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   padding-top: var(--anchor-offset);
 }
 .project-cards {
@@ -334,8 +325,6 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 10px 10px 0 0;
-  /* object-fit: cover; */
-  /* margin-bottom: 1rem; */
 }
 .project-content h3 {
   color: white;
@@ -378,8 +367,6 @@ section {
 }
 .project-features li::before {
   content: "✓";
-  /* position: absolute; */
-  /* left: 0; */
   color: rgba(45, 166, 178, 1);
   font-weight: 600;
   margin-right: 0.5rem;
@@ -393,7 +380,6 @@ section {
 .project-links a {
   text-decoration: none;
   color: rgb(45, 166, 178);
-  /* background: rgb(45, 166, 178); */
   border: 1px solid rgb(45, 166, 178);
   padding: 0.5rem 2.5rem;
   border-radius: 5px;
@@ -407,6 +393,7 @@ section {
 }
 
 /* contact section */
+
 .contact {
   background-color: #1a202c;
   min-height: 100vh;
@@ -414,16 +401,14 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   padding-top: var(--anchor-offset);
 }
 .contact-section {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   gap: 6rem;
   padding: 2rem;
-  max-width: 1200px; /* Add container max-width */
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -527,6 +512,7 @@ section {
 
 
 /* fotter section */
+
 .footer{
   background-color: #2D3748;
 }
@@ -536,7 +522,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
 }
 .media {
   display: flex;
